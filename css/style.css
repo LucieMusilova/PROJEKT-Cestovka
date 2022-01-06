@@ -151,7 +151,7 @@ html {
 
 @media screen and (min-width: 960px) {
   .block__last {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 180px 180px;
   }
 }
@@ -163,7 +163,7 @@ html {
 
 @media screen and (min-width: 960px) {
   .block__last .first {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 2/4;
   }
 }
